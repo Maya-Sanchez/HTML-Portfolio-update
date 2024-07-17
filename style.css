@@ -1,0 +1,77 @@
+body{
+    background-color: #f8c2a2;
+    margin:0px;
+    margin-top: 0%;
+}
+h1 {text-align: left;
+    position:relative;
+    background-color: #92412e;
+    font-family: serif;
+    font-size: 50px; 
+    color:  #482c2a;
+    margin-top: 0%;
+    padding:20px 0px 10px 200p ;
+    padding-left:200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+}
+.logo{
+    position:absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 100px;
+
+}
+.links{
+    text-align: left;
+    position: relative;
+    margin-left: 200px
+   ;
+
+}
+.link{
+    background-color: #92412e;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, bold, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    border-radius: 25px
+}
+.headshot{text-align: center;
+    border: 0px;
+    border-radius: 50%;
+    position: absolute;
+    left: 800px;
+    top: 115px;
+}
+
+.intro-header{
+    color: #92412e;
+    text-align: left;
+    width: 50%;
+    margin: 0 0 0 150px;
+    font-size: 90px;
+    position: relative;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+         
+}
+.brief{
+    color: black;
+    text-align: left;
+    font-size:30px;
+    position: relative;
+        font-family: "Squada One", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+
