@@ -1,77 +1,100 @@
 body{
-    background-color: #f8c2a2;
+    background-color: #92412e;
     margin:0px;
     margin-top: 0%;
+    border: 5px blue solid;
+    
 }
+
 h1 {text-align: left;
     position:relative;
-    background-color: #92412e;
+
     font-family: serif;
     font-size: 50px; 
-    color:  #482c2a;
+    color: #000000;
     margin-top: 0%;
     padding:20px 0px 10px 200p ;
     padding-left:200px;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: "Monoton", sans-serif;
-    font-weight: 400;
     font-style: normal;
-    
+    border: 5px orange solid;
       
 }
 .logo{
     position:absolute;
     border-radius: 50%;
-    top: 10px;
-    left: 100px;
+    border: 5px solid #04e2ff;
+
+    top: 30px;
+    left: 30px;
+    height: 15%;
 
 }
 .links{
-    text-align: left;
-    position: relative;
-    margin-left: 200px
-   ;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border: 5px yellow solid;
 
 }
 .link{
+    
     background-color: #92412e;
     padding: 10px;
     font-family:Georgia, 'Times New Roman', Times, bold, serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: right;
-    border-radius: 25px
+    border-radius: 25px;
+    box-shadow: 2px 2px 0 0  #f3b476,
+         4px 4px 0 0 black;
+        transition-duration: 200ms;
 }
 .headshot{text-align: center;
     border: 0px;
+    height: 30%;
     border-radius: 50%;
     position: absolute;
     left: 800px;
     top: 115px;
+    border: 5px rgb(255, 0, 153) solid
 }
 
 .intro-header{
-    color: #92412e;
+    background-color: #f3b476;
+    color: #000000;
     text-align: left;
     width: 50%;
     margin: 0 0 0 150px;
     font-size: 90px;
     position: relative;
-    font-family: "Pattaya", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
     font-weight: 400;
     font-style: normal;
+    border: 5px green solid;
       
          
 }
 .brief{
+    background-color: #92412e;
     color: black;
     text-align: left;
     font-size:30px;
     position: relative;
-        font-family: "Squada One", sans-serif;
         font-weight: 100;
         font-style: normal;
+    border:5px purple solid
       }
+ul{ width:100%;
+    border:5PX solid #ff0000;
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+}
 
+li{
+    display: inline-flex;
+}
 
