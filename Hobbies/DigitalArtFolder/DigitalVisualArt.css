@@ -6,7 +6,9 @@ body{
     /* border: 5px blue solid; */
     
 }
-
+.h2{
+    font-family: "Oleo Script", system-ui;
+}
 .link{
     background-color: #f2b476;
     font-size: 20px;
@@ -36,16 +38,20 @@ li{
 .grid{
     display: flex;
     justify-content:space-evenly;
-    border: #ff0000 solid 5px;
+    /* border: #ff0000 solid 5px; */
 }
 .gridBox{
     height: 60vh;
     width: 50vh;
-    border: #00d0ff solid 5px;
+    /* border: #00d0ff solid 5px; */
 }
 
-
+.grid-sketches{ 
+    display: flex;
+    justify-content:space-evenly;
+    /* border: #ff0000 solid 5px; */
+}
 .image{
     border: #000000 solid 4px;
-    height: 50vh
+    height: 55vh
 }
