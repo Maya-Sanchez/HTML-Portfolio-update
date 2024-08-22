@@ -1,13 +1,14 @@
 body{
-    background-color: #92412e;
+    background-color:  #92412e;
+    /* background-image: linear-gradient(#92412e, #cfb2ac); */
     margin:0px;
     margin-top: 0%;
-    border: 5px blue solid;
+    /* border: 5px blue solid; */
     
 }
 
 .container{
-    border:5px red solid;
+    /* border:5px red solid; */
     display: flex;
     height: 25vh;
     justify-content: center;
@@ -17,7 +18,7 @@ body{
     display: flex;
     height: 25vh;
     flex-direction: column;
-    border: yellowgreen solid;
+    /* border: yellowgreen solid; */
     justify-content: center;
     text-align: center;
     margin: 0%;
@@ -27,7 +28,7 @@ body{
 .logo{
     align-self: flex-start;
     border-radius: 50%;
-    border: 5px solid #ffffff;
+    border: 5px solid black;
     height: 150px;
     margin-top: 10px;
 
@@ -38,7 +39,7 @@ h1 {margin:30px 0px 0px 0px;
     font-size: 80px; 
     color: #000000;
     font-style: normal;
-    border: 5px orange solid;
+    /* border: 5px orange solid; */
 }
 
 h3 {display: block;
@@ -47,26 +48,33 @@ h3 {display: block;
     font-size: 20px; 
     color: #000000;
     font-style: normal;
-    border: 5px orange solid;
+    /* border: 5px orange solid; */
 }
 .space{
-    border: 10px #04e2ff solid;
+    /* border: 10px #04e2ff solid; */
     width: 20%;
     margin: 0%;
 }
-hr{
-    border: 1px transparent solid;
-    margin: 0%;
+.spaceIntro{
 
 }
 
+
+.hrBlack{
+    border: 4px black solid;
+    margin: 5vh 10% 5vh 20% ;
+    border-radius: 50%;
+
+
+}
 .back{
-    border: 5px #215807 solid;
+    /* border: 5px #215807 solid; */
     display: flex;
     flex-direction: column;
 }
 
 .link{
+    background-color: #f2b476;
     font-size: 20px;
     padding: 10px;
     text-align: center;
@@ -80,47 +88,60 @@ hr{
         transition-duration: 200ms;
 }
 ul{ width:100;
-    border:5PX solid #ff0000;
+    /* border:5PX solid #ff0000; */
     display: flex;
     gap:30px;
     justify-content: center;
 
 }
 
+#greeting{color: #000000;
+    font-size: 13vh;
+    text-align: center;
+    font-family: "Oleo Script", system-ui;
+    padding: 0%;
+    margin: 10PX;
+    background-color: #f2b476;
+    border: black solid 10px;
+}
+  
+
 .headshot_contain{
     display: flex;
     flex-direction:row;
     justify-content: center;
-    border: 5px salmon solid;
+    /* border: 5px rgb(255, 0, 0) solid; */
 
 }
+
 .intro-header{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    color: #000000;
-    font-size: 70px;
-    font-family: 'Times New Roman', Times, serif;
     font-style: bold;
     font-weight: 400;
     font-style: normal;
-    border: 5px rgb(128, 0, 79) solid;   
+    width: 150vh;
+    margin-right: 5vh;
+    /* border: 5px rgb(128, 0, 79) solid;    */
 }
 
 .headshot{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    border: 5px rgb(255, 0, 153) solid;
+    border: 5px solid black;
+    /* border: 5px rgb(255, 0, 153) solid; */
 }
 .brief{
     background-color: #92412e;
-    width: 70%;
+    width: 80%;
+    margin: 20px 10% 0% 10%;
     color: black;
-    font-size:20px;
+    font-size:1.5em;
+    text-align: center;
         font-weight: 100;
         font-style: normal;
-    border:5px purple solid;
+    /* border:5px purple solid; */
       }
 
 
