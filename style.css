@@ -79,11 +79,12 @@ hr{
          5px 5px 0 0 black;
         transition-duration: 200ms;
 }
-ul{ width:100%;
+ul{ width:100;
     border:5PX solid #ff0000;
     display: flex;
     gap:30px;
     justify-content: center;
+
 }
 
 .headshot_contain{
@@ -96,7 +97,7 @@ ul{ width:100%;
 .intro-header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     color: #000000;
     font-size: 70px;
     font-family: 'Times New Roman', Times, serif;
@@ -117,7 +118,6 @@ ul{ width:100%;
     width: 70%;
     color: black;
     font-size:20px;
-    position: relative;
         font-weight: 100;
         font-style: normal;
     border:5px purple solid;
