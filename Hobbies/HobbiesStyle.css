@@ -35,7 +35,7 @@ li{
 }
 .grid{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     border: #000000 solid 5px;
 }
 .gridBox{
