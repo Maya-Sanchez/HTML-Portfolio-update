@@ -21,6 +21,12 @@ body{
          5px 5px 0 0 black;
         transition-duration: 200ms;
 }
+
+
+.link:hover{
+    box-shadow: 3px 3px #92412e, 7px 7px 0 0 black;
+    transform: translate(-2px,-2px);
+}
 ul{ width:100;
     /* border:5PX solid #ff0000; */
     display: flex;
@@ -30,6 +36,9 @@ ul{ width:100;
 
 }
 
+.preview{
+    object-fit:fill;
+}
 li{
     display: inline-flex;
 }
@@ -39,6 +48,8 @@ li{
     border: #000000 solid 5px;
 }
 .gridBox{
+    margin: 0 0 0 0;
+    padding: 0%;
     height: 50vh;
     width: 50vh;
     border: #000000 solid 5px;
