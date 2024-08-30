@@ -48,7 +48,12 @@ li{
 .gridBox{
     height: 60vh;
     width: 50vh;
-    /* border: #00d0ff solid 5px;    */
+}
+
+.image{
+    height: 60vh;
+    width: 50vh;
+    border: #000000 solid 5px;   
 }
 
 .grid-sketches{ 
@@ -65,8 +70,7 @@ li{
     display: flex;
     justify-content: space-around;
     /* border: #ff0000 solid 5px; */}
-.image{
-    border: #000000 solid 4px;
-    height: 55vh;
-    margin:0;
+
+#landscape{
+    width: 80vh;
 }

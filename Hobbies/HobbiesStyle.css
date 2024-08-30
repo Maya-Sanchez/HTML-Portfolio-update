@@ -41,6 +41,17 @@ ul{ width:100;
     text-align: center;
 }
 
+.comingSoon{
+    position: absolute;
+top: 30%;
+left: px;;
+transform: translate(50%, -30%);
+background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+color: white;
+padding: 20px;
+border-radius: 5px;
+}
+
 .preview{
     object-fit:cover;
     height: 70vh;
@@ -64,4 +75,5 @@ li{
 .gridBox:hover{
     box-shadow: 3px 3px #92412e, 9px 9px 0 0 black;
     transform: translate(-2px,-2px);
+    
 }
