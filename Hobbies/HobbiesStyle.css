@@ -35,6 +35,11 @@ ul{ width:100;
     text-decoration: none;
 
 }
+.caption{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
 
 .preview{
     object-fit:cover;
@@ -46,7 +51,7 @@ li{
 .grid{
     display: flex;
     justify-content:space-evenly;
-    border: #882626 solid 5px;
+    /* border: #882626 solid 5px; */
 }
 .gridBox{
     box-shadow: 3px 3px 0 0  #92412e,

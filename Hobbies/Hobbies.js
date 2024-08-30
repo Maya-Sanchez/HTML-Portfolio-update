@@ -1,0 +1,4 @@
+preview.addeventlistener("click",
+    href
+
+)
