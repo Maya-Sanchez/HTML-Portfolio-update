@@ -37,7 +37,6 @@ li{
 }
 .grid{
     display: flex;
-    justify-content:space-evenly;
     /* border: #ff0000 solid 5px; */
 }
 .gridBox{
@@ -48,10 +47,20 @@ li{
 
 .grid-sketches{ 
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     /* border: #ff0000 solid 5px; */
 }
+.grid-digital{
+    display: flex;
+    justify-content: space-around;
+    /* border: #ff0000 solid 5px; */}
+
+.grid-dnd{
+    display: flex;
+    justify-content: space-around;
+    /* border: #ff0000 solid 5px; */}
 .image{
     border: #000000 solid 4px;
-    height: 55vh
+    height: 55vh;
+    margin:0;
 }
