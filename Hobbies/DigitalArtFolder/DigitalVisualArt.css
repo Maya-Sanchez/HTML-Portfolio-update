@@ -74,3 +74,8 @@ li{
 #landscape{
     width: 80vh;
 }
+.image{
+    height: 60vh;
+    width: 50vh;
+    border: #000000 solid 5px;   
+}
